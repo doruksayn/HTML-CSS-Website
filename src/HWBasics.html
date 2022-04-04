@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+    <link rel="stylesheet" href="HWmainCSS.css">
+</head>
+<body>
+<div class="paragraphDiv"> 
+    <h1 class="header">--- HTML Basics ---</h1>
+    <a href="HWMain.html" target="_self"><button style="font-size: 20px;" class="button button1">Home</button></a>
+<p class="subHeader">The !DOCTYPE Declaration:</p> 
+<u1>
+<li>The <mark>!DOCTYPE</mark> declaration represents the document type, and helps browsers to display web pages correctly.</li>
+<li>It must only appear once, at the top of the page (before any HTML tags).</li>
+<li>The <mark>!DOCTYPE</mark> declaration is not case sensitive.</li>
+<li>The <mark>!DOCTYPE</mark> declaration for HTML5 is:</li>
+</u1>   
+<br>
+<img src="Doctype decleration.png" alt="!DOCTYPE" width="160" height="40">
+<div class="border">
+<div class="BasicParagraphDiv" >
+<p class="subHeader">HTML Comment Tag</p>
+<u1>
+<li> You can add comments to your HTML source by using the following syntax:</li>
+<li>< !-- Write your comments here -- ></li>
+</u1>
+<p class="subHeader">HTML Headings</p>
+<u1>
+    <li>HTML headings are defined with the <mark>h1</mark> to <mark>h6</mark> tags.</li>
+    <li><mark>h1</mark> defines the most important heading. <mark>h6</mark> defines the least important heading: 
+    </li>
+</u1> 
+<img src="Headings.png" alt="Head">
+<p class="subHeader">HTML Paragraphs</p>
+<u1>
+<li> HTML paragraphs are defined with the <mark>p</mark> tag:</li>
+<img src="ParagraphHTML.png" alt="Paragraph">
+<li>You cannot be sure how HTML will be displayed.
+<li>Large or small screens, and resized windows will create different results.</li>
+<li>With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.</li>
+<li>The browser will automatically remove any extra spaces and lines when the page is displayed:</li>
+<img src="This Paragraph.png" alt="Paragraph2">
+<img style="margin-left: 5%;"  src="Arrows.png"  alt="Arrow" height="50" width="125">
+<img style="margin-left: 5%;" src="Paragraph 3.png" alt="Paragraph3">
+</u1>
+<p class="subHeader">pre Element</p>
+<u1>
+    <li>The HTML <mark>pre</mark> element defines preformatted text.</li>
+    <li>The text inside a <mark>pre</mark> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:</li>
+<img src="Pre Element.png" alt="PRE">    
+</u1> 
+<p class="subHeader">HTML Links and Images </p>
+<u1>
+    <li>HTML links are defined with the <mark>a</mark> tag:</li>
+<img src="HTML Link.png" alt="Link">  
+    <li>HTML images are defined with the <mark>img</mark> tag.</li>
+    <li>The source file (src), alternative text (alt), width, and height are provided as attributes:</li>
+<img src="Image.png" alt="Image">   
+<hr><hr>
+<li>Some HTML elements will display correctly, even if you forget the end tag:</li>
+<img src="End Tag.png" alt="End"> 
+<li>HTML elements with no content are called empty elements.</li>
+<li>The <mark>br</mark> tag defines a line break, and is an empty element without a closing tag:</li>
+<img src="Line Break.png" alt="Break"> 
+<p style="font-size: 30px; color: tomato;"><b>WARNING! HTML is Not Case Sensitive</b></p>
+<hr><hr>
+</u1> 
+</div>
+</div>
+<p class="subHeader">Nested HTML Elements</p>
+<u1>
+<li>HTML elements can be nested (this means that elements can contain other elements).</li>
+<li>All HTML documents consist of nested HTML elements.</li>
+<li>The following example contains four HTML elements <mark>(html, body, h1 and p)</mark>:</li>
+</u1>
+<br>
+<div class="nestedHTMLborder">
+<div class="BasicParagraphDiv">
+<img align="right" style="margin-right: 45%;" src="Nested.png"  alt="Nested">
+<u1>
+<br>
+<li>The <mark>html</mark> element is the root element and it defines the whole HTML document.</li>
+<li>It has a start tag <mark>html</mark> and an end tag <mark>/html</mark>.</li>
+<li>Then, inside the <mark>html</mark> element there is a <mark>body</mark> element:</li>
+<li>The <mark>body</mark> element defines the document's body.</li>
+<li>It has a start tag <mark>body</mark> and an end tag <mark>/body</mark>.</li>
+<li>Then, inside the <mark>body</mark> element there are two other elements: <mark>h1</mark> and </mark>p</mark>:</li>
+<li>The <mark>h1</mark> element defines a heading.</li>
+<li>The <mark>p</mark> element defines a paragraph. </li> 
+<br>
+</u1>
+
+</div>
+</div>
+<p class="subHeader">Block and Inline Elements</p>
+<u1>
+<li>Every HTML element has a default display value, depending on what type of element it is.</li>
+<li>There are two display values: block and inline.</li>
+<br>
+<b style="font-size: 20px;">Block-level Elements</b>
+<li>A block-level element always starts on a new line.</li>
+<li>A block-level element always takes up the full width available (stretches out to the left and right as far as it can).</li>
+<b style="font-size: 20px;">IMPORTANT ! The <mark>div</mark> element is a block-level element.</b>
+<li>Here are the block-level  elements in HTML:</li>
+<img src="block level.png" alt="block" width="600">
+<br>
+<b style="font-size: 20px;">Inline Elements</b>
+<li>An inline element does not start on a new line.</li>
+<li>An inline element only takes up as much width as necessary.</li>
+<li>This is a <mark>span</mark> element inside a paragraph.</li>
+<b style="font-size: 20px;">IMPORTANT ! Inline elements can't contain a block-level element.</b>
+<li>Here are the inline elements in HTML:</li>
+<img src="Inline.png" alt="Inline" width="600">
+</u1>
+<div class="border">
+    <div class="BasicParagraphDiv">       
+
+<p class="subHeader">The DIV & SPAN Elements</p>
+<u1>
+<li>The <mark>div</mark> element is often used as a container for other HTML elements</li>
+<li>The <mark>div</mark> element has no required attributes,<b> but style, class and id are common. </b></li>
+<li>When used together with CSS, the <mark>div</mark> element can be used to style blocks of content: </li>
+<img src="DIV.png" alt="div" width="500">
+<hr>
+<li>The <mark>span</mark> element is an inline container used to mark up a part of a text, or a part of a document.</li>
+<li>The <mark>span</mark> element has no required attributes, but style, class and id are common.</li>
+<li>When used together with CSS, the <mark>span</mark> element can be used to style parts of the text:</li>
+<img src="Span.png" alt="span" width="500">  
+</u1>       
+
+</div>
+</div>
+<p class="subHeader"> HEAD </p>
+<u1>
+<b>The HTML <head> element is a container for the following elements: <mark>title, style, meta, link, script, and base</mark>.</b>
+<li>The <mark>head</mark> element is a container for metadata (data about data)</li>
+<li>HTML metadata is data about the HTML document. Metadata is not displayed.</li>
+<li>Metadata typically define the document title, character set, styles, scripts, and other meta information.</li>
+</u1>
+<div class="border">
+    <div class="BasicParagraphDiv">
+        <br>
+<b style="font-size: 20px;">The HTML <mark>title</mark> Element</b> 
+<u1>
+    <li>The <mark>title</mark> element defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.</li>
+    <li>The <mark>title</mark> element is required in HTML documents!</li>
+    <b style="font-size: 20px;">The <mark>title</mark> element:</b>
+        <li>defines a title in the browser toolbar</li>
+        <li>provides a title for the page when it is added to favorites</li>
+        <li>displays a title for the page in search engine-results</li>
+</u1>     
+<b style="font-size: 20px;">The <mark>style</mark> element:</b>
+<li>The <mark>style</mark> element is used to define style information for a single HTML page:</li>
+<img src="style1.png" alt="style1">
+<br>
+<b style="font-size: 20px;">The <mark>link</mark> element:</b>
+<li>The <mark>link</mark> element defines the relationship between the current document and an external resource.</li>
+<li>The <mark>link</mark> tag is most often used to link to external style sheets:</li>
+<img src="link1.png" alt="link1">
+<br>
+<b style="font-size: 20px;">The <mark>meta</mark> element:</b>
+<li>The <mark>meta</mark> element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.</li>
+<li>The metadata will not be displayed on the page, but are used by browsers (how to display content or reload page), by search engines (keywords), and other web services.</li>
+<br>
+<div style="margin-left: 0%; " class="borderTable">
+    <pre> 
+ <mark>meta charset="UTF-8"</mark>
+ <mark>meta name="keywords" content="HTML, CSS, JavaScript"</mark>
+ <mark>meta name="description" content="Free Web tutorials"</mark>
+ <mark>meta name="author" content="John Doe"</mark>
+ <mark>meta http-equiv="refresh" content="30"</mark>
+ <mark>meta name="viewport" content="width=device-width,</mark>
+ <mark>initial-scale=1.0"</mark>
+ </pre>
+</div>
+<br>
+<b style="font-size: 20px;">The <mark>base</mark> element:</b>
+<li>The <mark>base</mark> element specifies the base URL and/or target for all relative URLs in a page.</li>
+<li>The <mark>base</mark> tag must have either an href or a target attribute present, or both.</li>
+<li>There can only be one single <mark>base</mark> element in a document!
+</li>
+</div>
+</div>
+<p></p>
+</div>
+</body>
+</html>

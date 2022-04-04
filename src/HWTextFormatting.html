@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Format</title>
+    <link rel="stylesheet" href="HWmainCSS.css">
+</head>
+<body>
+    <h1 class="header">Text Formatting, Color, Quotation etc...</h1>
+    <a href="HWMain.html" target="_self"><button style="font-size: 20px;" class="button button1">Home</button></a>
+  <div class="paragraphDiv">
+    <p class="subHeader">HTML Formatting Elements</p>
+    <u1>
+<li>Formatting elements were designed to display special types of text:</li>
+<img style="margin-left: 1%;"  src="Formattin Elements.png" alt="Format">
+<p class="subHeader">HTML Quotation and Citation</p>
+<li><mark>blockquote</mark> - quoted from another source.</li>
+<li><mark>q</mark> - insert quotation marks around the quotation.</li>
+<li><mark>>abbr</mark> - defines an abbreviation or an acronym.</li>
+<li><mark>address</mark> - defines the contact information for the author/owner of a document.</li>
+<li><mark>cite</mark> - defines the title of a creative work.</li>
+<li><mark>bdo</mark> - Bi-Directional Override - used to override the current text direction.</li>
+<p class="subHeader">HTML Colors</p>
+<li><b>HTML colors are specified with predefined;</b></li>
+<br>
+<a href="https://www.rapidtables.com/web/color/RGB_Color.html" target="_blank"><img style="margin-left: 1%;" src="RGB.png" alt="RGB"></a>
+<li>Color names</li>
+<li>RGB, HEX, HSL, RGBA, or HSLA values.</li>
+<li>Background Color</li>
+<li>Text Color</li>
+<li>Border Color</li>
+<p class="subHeader">HTML Links</p>
+<img align="right" style="margin-right: 45%;"  src="URL.png" alt="URL">
+<li>HTML links are hyperlinks.</li>
+<li>You can click on a link and jump to another document.</li>
+<li>When you move the mouse over a link, the mouse arrow will turn into a little hand.</li>
+<hr>
+<li><b>The target attribute specifies where to open the linked document.</b></li>
+<li>The target attribute can have one of the following values:</li>
+<li><mark>_self</mark> - Default. Opens the document in the same window/tab as it was clicked.</li>
+<li><mark>_blank</mark> - Opens the document in a new window or tab.</li>
+<img align="right" style="margin-right: 40%;"  src="blank.png" alt="Blank">
+<li><mark>_parent</mark> - Opens the document in the parent frame.</li>
+<li><mark>_top</mark> - Opens the document in the full body of the window.</li>
+<br>
+<li>To use an image as a link, just put the <mark>img</mark> tag inside the <mark>a</mark> tag:</li>
+<img src="IMG.png" alt="IMG">
+</u1> 
+<hr>
+<div class="border">
+<div class="BasicParagraphDiv">
+    <p class="subHeader">HTML Images</p>    
+<u1>
+<b style="font-size: 20px;">Image Floating</b>
+<li>Use the CSS float property to let the image float to the right or to the left of a text:</li>
+<img src="Floating.png" alt="Float">
+<br>
+<b>With HTML image maps, you can create clickable areas on an image.</b>
+<li>The HTML <mark>map</mark> tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more <mark>area</mark> tags.</li>
+<img src="Area1.png" alt="Area1"> <img style="margin-left: 5%;"  src="Area2.png" alt="Area2">
+<br>
+<b style="font-size: 20px;">Background Image on a HTML element </b>
+<li>A background image can be specified for almost any HTML element</li>
+<li>To add a background image on an HTML element, use the HTML style attribute and the CSS background-image property:</li>
+<img src="BGimage.png" alt="BG">
+<li>The HTML <mark>picture</mark> element gives web developers more flexibility in specifying image resources.</li>
+<li>The <mark>picture</mark>  element contains one or more <mark>source</mark> elements, each referring to different images through the srcset attribute. This way the browser can choose the image that best fits the current view and/or device.</li>
+<li>Each <mark>source</mark> element has a media attribute that defines when the image is the most suitable.</li>
+<img src="Soruce.png" alt="Soruce">
+</u1>    
+</div>    
+</div>
+<hr>
+<div class="border">
+    <div class="BasicParagraphDiv">
+    <p class="subHeader">HTML Tables</p>
+    <img align="left" src="Table.png" alt="Table">
+    <br>
+    <br>
+    <div class="borderTable">
+        <div class="BasicParagraphDiv">         
+<b style="font-size: 25px;">Table Cells</b> 
+<li style="font-size: 20px;">Each table cell is defined by a <mark>td</mark> and a <mark>/td</mark> tag.</li>        
+</div>
+</div>
+<br>
+<br>
+<div class="borderTable">
+    <div class="BasicParagraphDiv">
+        <b style="font-size: 25px;">Table Rows</b> 
+        <li style="font-size: 20px;">Each table row starts with a <mark>tr</mark> and end with a <mark>/tr</mark> tag</li>  
+</div>
+</div>
+<br>
+<br>
+<div class="borderTable">
+    <div class="BasicParagraphDiv">
+        <b style="font-size: 25px;">Table Headers</b>
+<li style="font-size: 20px;">Sometimes you want your cells to be headers, in those cases use the <mark>th</mark> tag instead of the <mark>td</mark> tag:</li>        
+
+</div>
+</div>
+<br>
+<br>
+<b>HTML tables can have borders of different styles and shapes.</b>
+<u1>
+<br>
+<b>For this you can use CSS</b> 
+<li>Border:</li>
+<li>Border-color:</li>
+<li>Background-color:</li>
+<li>Border-style:</li>
+<li>Border-radius:</li>
+<li>Border-collapse:</li>
+</u1>
+<br>
+<b>Colspan & Rowspan</b>
+<li>to make a cell span over multiple columns, use the colspan attribute:</li>
+<li>to make a cell span over multiple rows, use the rowspan attribute: </li>
+<img style="margin-left: 1%;" src="Rowspan.png" alt="rowspan">
+</div>    
+</div>
+<p class="subHeader">HTML List</p>
+<b>Unordered HTML List:</b>
+<u1 style="list-style-type: square;">
+<li>An unordered list starts with the <mark>ul</mark> tag. Each list item starts with the <mark>li</mark> tag. </li>
+<li>Type: Disc, circle,square</li>
+</u1>
+<b>Ordered HTML List:</b>
+<o1 style="list-style-type: A;">
+<li>An ordered list starts with the <mark>ol</mark> tag. Each list item starts with the <mark>li</mark> tag. </li>
+<li>Type: 1,A,a,I,i</li>
+<li>start</li>
+</o1>
+<b>HTML Description Lists:</b>
+<u1 style="list-style-type: disc;">
+<li>The <mark>dl</mark> tag defines the description list, the <mark>dt</mark> tag defines the term (name), and the <mark>dd</mark> tag describes each term:</li>
+</u1>
+</div>  
+</body>
+</html>

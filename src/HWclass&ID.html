@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class & ID</title>
+    <link rel="stylesheet" href="HWmainCSS.css">
+</head>
+<body>
+   <h1 class="header">Class, ID & Paths</h1>
+   <a href="HWMain.html" target="_self"><button style="font-size: 20px;" class="button button1">Home</button></a>
+<div class="paragraphDiv">
+    <p class="subHeader">HTML Class Attribute</p>
+<u1>
+    <li>The HTML class attribute is used to specify a class for an HTML element.</li>
+    <li>Multiple HTML elements can share the same class.</li>
+</u1>
+<div class="border">
+ <div class="BasicParagraphDiv">
+     <br>
+<b style="font-size: 20px;">Using The class Attribute</b>
+<u1>
+    <li>The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name.</li>
+    <li>In the following example we have three <mark>div</mark> elements with a class attribute with the value of "city".</li>
+<li>All of the three <mark>div</mark> elements will be styled equally according to the .city style definition in the head section:</li>
+    <br>
+    <img src="class1.png" alt="class1">
+<img style="margin-left: 5%;" src="class2.png" alt="class2">
+<img style="margin-left: 7%;" src="Arrows.png" alt="arrow" width="160">
+<img style="margin-left: 5%;" src="class3.png" alt="class3">
+<hr>
+<li>In the following example we have two <mark>span</mark> elements with a class attribute with the value of "note". </li>
+<li>Both <mark>span</mark> elements will be styled equally according to the .note style definition in the head section:</li>
+<img src="span1.png" alt="span1">
+<img style="margin-left: 7%;" src="Arrows.png" alt="arrow1" width="160">
+<img style="margin-left: 5%;"  src="span2.png" alt="span2">
+</u1>
+<hr>
+<b style="font-size: 20px;">Using The ID Attribute</b>
+<u1>
+   <li>The HTML id attribute is used to specify a unique id for an HTML element.</li>
+   <li>You cannot have more than one element with the same id in an HTML document.</li> 
+   <li>The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document.</li>
+   <li>The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id.</li>
+   <li>In the following example we have an <mark>h1</mark> element that points to the id name "myHeader".</li>
+   <li>This <mark>h1</mark> element will be styled according to the #myHeader style definition in the head section:</li>
+<img src="myheader.png" alt="header1">
+<img style="margin-left: 5%;" src="Arrows.png" alt="arrow3" width="160">
+<img style="margin-left: 5%;" src="myheader2.png" alt="header2">
+</u1>
+<hr>
+<b style="font-size: 20px;">Difference Between Class and ID</b>
+<li>A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page:</li>
+<img src="myheader3.png" alt="header4">
+<img style="margin-left: 5%;" src="Arrows.png" alt="arrows5" width="160">
+<img style="margin-left: 5%;" src="myheader4.png" alt="header5">
+</div>   
+</div>
+<p class="subHeader">HTML Bookmarks with using ID and Links</p>
+<u1>
+<li>HTML bookmarks are used to allow readers to jump to specific parts of a webpage.</li>
+<li>Bookmarks can be useful if your page is very long.</li>
+<li>To use a bookmark, you must first create it, and then add a link to it.</li>
+<li>Then, when the link is clicked, the page will scroll to the location with the bookmark.</li>
+<img src="id1.png" alt="id1" width="350">
+<img src="id2.png" alt="id2" width="460">
+<img src="id3.png" alt="id3" width="620">
+</u1>
+<p class="subHeader">HTML File Paths</p>
+<table border="2" style="border-collapse: collapse; width: 53% ">
+    <tr style="background-color:#86d10d">
+        <th style="font-size: 20px;">Path</th>
+        <th style="text-align: left; font-size: 20px;">Description</th>
+    </tr>
+    <tr>
+        <th>img src="picture.jpg"</th>
+        <th style="text-align: left;">The "picture.jpg" file is located in the same folder as the current page.
+        </th>
+    </tr>
+    <tr>
+        <th>img src="images/picture.jpg"
+        </th>
+        <th style="text-align: left;">The "picture.jpg" file is located in the images folder in the current folder.
+        </th>
+    </tr>
+    <tr>
+        <th>img src="/images/picture.jpg"
+        </th>
+        <th style="text-align: left;">The "picture.jpg" file is located in the images folder at the root of the current web.
+        </th>
+    </tr>
+    <tr>
+        <th>img src="../picture.jpg"
+        </th>
+        <th style="text-align: left;">The "picture.jpg" file is located in the folder one level up from the current folder.
+        </th>
+    </tr>
+    <tr>
+    </table>
+    <br>
+<div style="margin-left: 0%; width: 35%;" class="borderTable">
+    <div class="BasicParagraphDiv">
+<p>A file path describes the location of a file in a web site's folder structure.</p>
+<p>File paths are used when linking to external files, like:</p>  
+<li>Web pages</li>     
+<li>Images</li> 
+<li>Style sheets</li>
+<li>JavaScripts</li>
+</div>
+</div>    
+</div>   
+</body>
+</html>
